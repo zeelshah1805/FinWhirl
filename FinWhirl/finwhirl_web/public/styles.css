@@ -1,0 +1,75 @@
+/* Basic styles for the Finance Management System */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+background-color: #FFFFFF; /* Changed background color to white */
+
+
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    margin: 10px; /* Reduced margin for smaller cards */
+}
+
+
+.card {
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 15px; /* Reduced padding for smaller cards */
+    margin: 5px; /* Reduced margin for smaller cards */
+    width: 250px; /* Reduced width for smaller cards */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+h1, h2 {
+    color: #ffffff; /* Changed font color to white */
+}
+
+nav ul li a {
+    color: #ffffff; /* Changed menu font color to white */
+    text-decoration: none; /* Remove underline from links */
+    padding: 10px; /* Added padding for better spacing */
+    font-size: 16px; /* Increased font size for menu items */
+}
+
+nav ul li a:hover {
+    background-color: #004080; /* Darker blue on hover */
+    border-radius: 5px; /* Rounded corners on hover */
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #fff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+header {
+    background: #0040A0; /* Changed header background to a more attractive blue */
+
+    color: #ffffff;
+    padding: 40px; /* Further increased padding for larger header */
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+}
+
+h2 {
+    color: #35424a;
+}
